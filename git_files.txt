@@ -30,6 +30,10 @@ koi aisa remote origin,website,webserver code nu save kare
 internet te koi code bhejn nu push
 internet ton koi code vapis lain nu git-pull	  
 
+git remote add origin ""
+
+git push -u origin master
+
 9.) git diff util.txt
 
 10.) git diff --staged util.txt
