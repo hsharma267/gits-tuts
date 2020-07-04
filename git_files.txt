@@ -1,0 +1,76 @@
+Git:- It is version control system tracking changes in computer files.
+
+Git,Github,Gitlab,bitbucket
+Github- web bases service ,host repository file (host kar sakta hu files)
+
+website:-  https://git-scm.com
+
+1.) git --version
+
+2.) git status
+
+3.) git init (initialize git repositary)
+
+4.) git add . (working directory to staging area)
+
+5.) git commit -m "Version 1" (staging area to git repositary)
+
+6.) git log
+
+7.) git config --global user.name "Harish Kumar"
+
+8.) git config --global user.email "sharmaharish0508@gmail.com"
+
+
+Three stage architecture:- 
+
+origin add
+koi aisa remote origin,website,webserver code nu save kare 
+
+internet te koi code bhejn nu push
+internet ton koi code vapis lain nu git-pull	  
+
+9.) git diff util.txt
+
+10.) git diff --staged util.txt
+
+11.) git reset util.txt
+
+12.) git checkout util.txt (specfic file reset)
+
+13.) git checkout .  (all files reset)
+		
+		I)	git add -A stages All
+		II)	git add . stages new and modified, Without deleted
+		III)  	git add -u stages modified and deleted, Without new
+
+
+
+14.) git clone "SSH path name" , git clone "SSH path name" .
+
+15.) ls -la
+
+16.) touch .gitignore
+	notpad .gitignore
+
+17.) git remote add origin ""
+
+18.) git push -u origin master
+
+19.) git branch
+
+20.) git branch login-system
+
+21.) git checkout login-system
+
+22.) git branch
+
+23.) git push -u origin login-system
+
+24.) git checkout master
+
+25.) git merge master
+
+26.) git push -u origin master
+
+27.) git push origin delete --delete login-system 
